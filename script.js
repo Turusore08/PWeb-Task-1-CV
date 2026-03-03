@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Reveal elements on scroll
+  
     const observerOptions = {
         threshold: 0.1
     };
@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
         observer.observe(el);
     });
 
-    // Add smooth scroll for navigation (if any)
+
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
             e.preventDefault();
